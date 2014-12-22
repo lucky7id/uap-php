@@ -3,7 +3,7 @@ namespace UAParser\Command;
 
 use Symfony\Component\Console\Application;
 
-$packageAutoloader = __DIR__ . 'vendor/autoload.php';
+$packageAutoloader = 'vendor/autoload.php';
 $standaloneAutoloader = __DIR__ . '/../../autoload.php';
 if (file_exists($packageAutoloader)) {
     require_once $packageAutoloader;
